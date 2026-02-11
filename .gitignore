@@ -1,2 +1,25 @@
 node_modules/
 .DS_Store
+
+# Environments
+.env
+.venv/
+venv/
+env/
+python/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Project Specific
+ai/static/
+ai/temp/
+*.log
+index.html
+verify_transcribe.py
+list_models.py
+check_env.py
+
